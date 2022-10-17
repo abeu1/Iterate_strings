@@ -1,0 +1,3 @@
+strings = "string1\nstring2\n"
+with open("strings.txt", "w") as myfile:
+    myfile.write(strings*100)
